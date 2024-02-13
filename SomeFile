@@ -1,0 +1,4 @@
+public void DestroyMatrix()
+{
+  this.System.Destroy();
+}
