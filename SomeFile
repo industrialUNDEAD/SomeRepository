@@ -1,3 +1,6 @@
+var user = System.Input();
+System.InitUser(user);
+
 public void DestroyMatrix()
 {
   this.System.Destroy();
