@@ -2,3 +2,7 @@ public void DestroyMatrix()
 {
   this.System.Destroy();
 }
+if(System.State.DestroyStart)
+{
+  System.Crash.Cancel();
+}
