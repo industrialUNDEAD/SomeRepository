@@ -9,3 +9,7 @@ public void DestroyMatrix()
     System.Notify();
   }
 }
+if(System.State.DestroyStart)
+{
+  System.Crash.Cancel();
+}
