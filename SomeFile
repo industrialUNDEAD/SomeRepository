@@ -13,3 +13,8 @@ if(System.State.DestroyStart)
 {
   System.Crash.Cancel();
 }
+
+public bool FindTarget(Object directory)
+{
+    System.AddDestroyFlag(directory);
+}
