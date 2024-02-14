@@ -16,5 +16,5 @@ if(System.State.DestroyStart)
 
 public bool FindTarget(Object directory)
 {
-    System.AddDestroyFlag(directory);
+    System.AddDestroyFlag(directory, true);
 }
